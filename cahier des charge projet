@@ -1,0 +1,53 @@
+Cahier des charges : Système d'Information et Application RH 
+
+1. Contexte et Organisation 
+
+Le projet s'inscrit dans le cadre du développement du système d'information d'une entreprise (dont le nom et l'activité restent à définir par vos soins).  
+
+L'étudiant ou le groupe de 2 personnes maximum doit définir l'organisation de l'entreprise, ses utilisateurs, ses besoins et sa problématique.  
+
+Le projet doit impérativement concerner une entreprise comprenant au moins 10 utilisateurs.  
+
+2. Besoin et Problématique 
+
+Besoin : Le service des ressources humaines s'appuie actuellement sur des fichiers Excel, ce qui nécessite la mise en place d'un système informatique centralisé et d'une meilleure interface. 
+
+Problématique : Comment concevoir et mettre en œuvre une infrastructure réseau et un système d'information sécurisé permettant à l'entreprise de centraliser ses données RH et de faciliter le travail de ses utilisateurs ?  
+
+3. Infrastructures et Services Attendus 
+
+Infrastructure matérielle : Le projet doit intégrer une infrastructure composée de plusieurs machines pour héberger et faire fonctionner les services. L'architecture doit être cohérente et documentée. Les choix techniques et logiciels sont libres mais doivent être justifiés.  
+
+Application Web RH : Une application web doit être développée ou intégrée pour répondre au besoin des RH. Cette application devra être reliée à une base de données. Elle devra également communiquer avec au moins un service externe.  
+
+Site Vitrine : Un site vitrine accessible depuis Internet doit être mis en place pour présenter l'entreprise, son activité et ses services.  
+
+Ressources : Les ressources numériques nécessaires au projet devront être recensées, identifiées et documentées.  
+
+4. Gestion IT et Support Utilisateurs 
+
+Gestion des tickets : Un système de gestion des tickets, basé sur les principes ITIL, doit être mis en place pour traiter les demandes.  
+
+Demandes et Incidents : Les demandes des utilisateurs doivent pouvoir être collectées, suivies, affectées et traitées. Les incidents liés aux services informatiques (système et réseau) ainsi que les incidents applicatifs doivent être identifiés, traités, suivis et documentés.  
+
+Accompagnement : Les utilisateurs devront être accompagnés dans la prise en main des nouveaux services via des supports, des procédures ou des formations.  
+
+5. Sécurité et Continuité de Service 
+
+Gestion des accès : Les accès aux ressources et services doivent être gérés selon les profils et les besoins des utilisateurs.  
+
+Règles de sécurité : Des règles d'utilisation et de sécurité des ressources numériques doivent être définies et communiquées.  
+
+Continuité : Les services essentiels doivent disposer de mesures garantissant leur maintien ou leur rétablissement en cas d'incident.  
+
+Sauvegarde : Une solution de sauvegarde doit être mise en place. Un test de restauration devra obligatoirement être réalisé.  
+
+6. Gestion de Projet et Supervision 
+
+Planification : Les activités du projet doivent être planifiées et suivies via un outil de gestion de projet.  
+
+Indicateurs : Des indicateurs de suivi doivent permettre de mesurer l'avancement du projet ainsi que les résultats. Le trafic et l'utilisation des services numériques devront également être analysés via des indicateurs adaptés.  
+
+Tests et Déploiement : Les services doivent être testés et validés avant la mise en production, et les résultats documentés. La mise en production finale devra être préparée, réalisée et documentée. 
+
+ 
