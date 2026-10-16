@@ -1,0 +1,44 @@
+// Structure DBML - Auth & Certifications RH
+
+Table users {
+  id integer [primary key]
+  nom varchar [not null]
+  prenom varchar [not null]
+  email varchar [unique, not null]
+  password_hash varchar [not null, note: 'Hash bcrypt ou argon2']
+  role varchar [not null, note: 'admin, rh, manager, salarie']
+  is_active boolean [default: true]
+  last_login timestamp
+  created_at timestamp [default: `now()`]
+}
+
+Table password_resets {
+  id integer [primary key]
+  user_id integer [not null]
+  token varchar [not null, unique]
+  expires_at timestamp [not null]
+  created_at timestamp [default: `now()`]
+}
+
+Table certifications {
+  id integer [primary key]
+  nom varchar [not null]
+  organisme varchar [not null]
+  duree_validite_mois integer [note: 'null si validite permanente']
+}
+
+Table user_certifications {
+  id integer [primary key]
+  user_id integer [not null]
+  certification_id integer [not null]
+  date_obtention date [not null]
+  date_expiration date
+  statut varchar [not null, note: 'valide, expiree, en cours']
+  justificatif_url varchar
+  created_at timestamp [default: `now()`]
+}
+
+// Relations
+Ref: password_resets.user_id > users.id
+Ref: user_certifications.user_id > users.id
+Ref: user_certifications.certification_id > certifications.id
